@@ -31,12 +31,13 @@ function HomePage() {
         <>
             <PageWrapper>
                 <Box sx={{ marginTop: 4 }}>
-                    <Avatar
-                        href='https://www.linkedin.com/in/abdibrokhim/'
-                        alt="Ibrohim Abdivokhidov"
-                        src={profile_photo}
-                        sx={{ width: 200, height: 200, alignItems: 'center', margin: 'auto' }}
-                    />
+                    <Link href="https://www.linkedin.com/in/abdibrokhim/" target='_blank' underline="none" sx={{ color: 'black' }}>
+                        <Avatar
+                            alt="Ibrohim Abdivokhidov"
+                            src={profile_photo}
+                            sx={{ width: 200, height: 200, alignItems: 'center', margin: 'auto' }}
+                            />
+                    </Link>
                     <Typography variant="h6" gutterBottom display="block" sx={{ marginTop: 2, fontWeight: 'bold', textAlign: 'center' }}>
                         Ibrohim Abdivokhidov
                     </Typography>
