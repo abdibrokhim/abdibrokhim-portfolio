@@ -32,6 +32,7 @@ function HomePage() {
             <PageWrapper>
                 <Box sx={{ marginTop: 4 }}>
                     <Avatar
+                        href='https://www.linkedin.com/in/abdibrokhim/'
                         alt="Ibrohim Abdivokhidov"
                         src={profile_photo}
                         sx={{ width: 200, height: 200, alignItems: 'center', margin: 'auto' }}
